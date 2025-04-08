@@ -81,6 +81,9 @@ DATABASES = {
         'NAME': 'octofit_db',
         'HOST': 'localhost',
         'PORT': 27017,
+        'USER': 'octofit_user',
+        'PASSWORD': 'octofit_password',
+        'AUTH_SOURCE': 'admin',
     }
 }
 
